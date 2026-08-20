@@ -11,7 +11,9 @@ header {
   height: 30vh;
   align-content: center;
   h1 {
+    color: #2c3648;
     font-size: clamp(1.5rem, 3rem, 5rem);
+    text-shadow: 0px 0px 10px rgb(75, 63, 250);
   }
 }
 nav {
@@ -25,13 +27,13 @@ nav {
   a {
     color: rgb(11, 14, 14);
     text-decoration: none;
-    background-color: aqua;
+    background-color: rgb(75, 63, 250);
     padding: 15px;
     border-radius: 15px;
   }
   a:hover {
     color: #222222;
-    background-color: rgb(214, 253, 253);
+    background-color: #d6fdfd;
   }
 }
 main {
@@ -46,7 +48,10 @@ main {
     color: #222222;
   }
   a:hover {
-    color: azure;
+    color: rgb(226, 250, 250);
+  }
+  b {
+    color: #514f4f;
   }
 }
 footer {
